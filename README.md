@@ -44,6 +44,14 @@ TodoApp/
 └── [Legacy files for backward compatibility]
 ```
 
+## 🖼️ Screenshots
+
+Below are some screenshots of the Todo CLI Application in action. These images are located in `View/IPhotoCollection`:
+
+| Add Task                                   | Complete Task                                        | List Tasks                                    | Remove Task                                      | Exit Application                                    |
+| ------------------------------------------ | ---------------------------------------------------- | --------------------------------------------- | ------------------------------------------------ | --------------------------------------------------- |
+| ![Add Task](View/IPhotoCollection/add.png) | ![Complete Task](View/IPhotoCollection/complete.png) | ![List Tasks](View/IPhotoCollection/list.png) | ![Remove Task](View/IPhotoCollection/remove.png) | ![Exit Application](View/IPhotoCollection/exit.png) |
+
 ## 🛠️ Installation and Setup
 
 ### Prerequisites
