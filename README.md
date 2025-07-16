@@ -61,19 +61,19 @@ View/
 **Screenshots:**
 
 - **Add Task:**  
-  ![Add Task](./View/IPhotoCollection/add.png)
+  ![Add Task](View/add.png)
 
 - **Complete Task:**  
-  ![Complete Task](./View/IPhotoCollection/complete.png)
+  ![Complete Task](./View/complete.png)
 
 - **List Tasks:**  
-  ![List Tasks](./View/IPhotoCollection/list.png)
+  ![List Tasks](./View/list.png)
 
 - **Remove Task:**  
-  ![Remove Task](./View/IPhotoCollection/remove.png)
+  ![Remove Task](./View/remove.png)
 
 - **Exit Application:**  
-  ![Exit Application](./View/IPhotoCollection/exit.png)
+  ![Exit Application](./View/exit.png)
 
 ### Prerequisites
 
