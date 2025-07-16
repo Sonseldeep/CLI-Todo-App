@@ -46,13 +46,34 @@ TodoApp/
 
 ## 🖼️ Screenshots
 
-Below are some screenshots of the Todo CLI Application in action. These images are located in `View/IPhotoCollection`:
+Below are example screenshots of the Todo CLI Application. Make sure your images are placed in the `View/IPhotoCollection` folder relative to your repository root.
 
-| Add Task                                   | Complete Task                                        | List Tasks                                    | Remove Task                                      | Exit Application                                    |
-| ------------------------------------------ | ---------------------------------------------------- | --------------------------------------------- | ------------------------------------------------ | --------------------------------------------------- |
-| ![Add Task](View/IPhotoCollection/add.png) | ![Complete Task](View/IPhotoCollection/complete.png) | ![List Tasks](View/IPhotoCollection/list.png) | ![Remove Task](View/IPhotoCollection/remove.png) | ![Exit Application](View/IPhotoCollection/exit.png) |
+```
+View/
+└── IPhotoCollection/
+    ├── add.png
+    ├── complete.png
+    ├── list.png
+    ├── remove.png
+    └── exit.png
+```
 
-## 🛠️ Installation and Setup
+**Screenshots:**
+
+- **Add Task:**  
+  ![Add Task](./View/IPhotoCollection/add.png)
+
+- **Complete Task:**  
+  ![Complete Task](./View/IPhotoCollection/complete.png)
+
+- **List Tasks:**  
+  ![List Tasks](./View/IPhotoCollection/list.png)
+
+- **Remove Task:**  
+  ![Remove Task](./View/IPhotoCollection/remove.png)
+
+- **Exit Application:**  
+  ![Exit Application](./View/IPhotoCollection/exit.png)
 
 ### Prerequisites
 
