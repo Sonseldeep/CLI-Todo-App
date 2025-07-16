@@ -1,0 +1,20 @@
+[
+  {
+    "id": 3,
+    "description": "make CLI todo list assignment of lspp",
+    "isCompleted": false,
+    "createdAt": "2025-07-16T14:26:10.2466075+05:45"
+  },
+  {
+    "id": 4,
+    "description": "Todo CLI App as LSPP Clean Code Assignament",
+    "isCompleted": false,
+    "createdAt": "2025-07-16T09:06:36.1720621Z"
+  },
+  {
+    "id": 5,
+    "description": "Todo Cli App",
+    "isCompleted": true,
+    "createdAt": "2025-07-16T09:08:44.4812863Z"
+  }
+]
