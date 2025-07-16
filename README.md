@@ -15,42 +15,42 @@ A simple, interactive command-line todo application built with C# following Clea
 
 ```
 TodoApp/
-├── Core/                           # Business logic and domain entities
+├── Core/
 │   ├── Entities/
-│   │   └── TodoTask.cs            # Domain entity
+│   │   └── TodoTask.cs
 │   ├── Interfaces/
-│   │   ├── ITodoRepository.cs     # Repository contract
-│   │   └── ITodoService.cs        # Service contract
+│   │   ├── ITodoRepository.cs
+│   │   └── ITodoService.cs
 │   └── Services/
-│       └── TodoService.cs         # Business logic implementation
-├── Infrastructure/                 # External concerns (data access)
+│       └── TodoService.cs
+├── Infrastructure/
 │   └── Repositories/
-│       ├── JsonTodoRepository.cs  # JSON file persistence
-│       ├── TodoRepositoryAdapter.cs # Adapter pattern implementation
-│       └── TodoTaskAdapter.cs     # Entity mapping
-├── Application/                    # Application layer
+│       ├── JsonTodoRepository.cs
+│       ├── TodoRepositoryAdapter.cs
+│       └── TodoTaskAdapter.cs
+├── Application/
 │   ├── DTOs/
-│   │   └── TodoTaskDto.cs         # Data transfer objects
+│   │   └── TodoTaskDto.cs
 │   └── Common/
-│       ├── Result.cs              # Result pattern implementation
-│       └── TodoTaskMapper.cs      # Entity-DTO mapping
-├── Presentation/                   # User interface layer
+│       ├── Result.cs
+│       └── TodoTaskMapper.cs
+├── Presentation/
 │   └── CLI/
-│       ├── ConsoleHelper.cs       # Console UI utilities
-│       ├── IConsoleHelper.cs      # UI abstraction
-│       ├── InteractiveTodoCliHandler.cs # Interactive menu handler
-│       └── CommandLineHandler.cs  # Command-line argument handler
-├── Program.cs                      # Application entry point
+│       ├── ConsoleHelper.cs
+│       ├── IConsoleHelper.cs
+│       ├── InteractiveTodoCliHandler.cs
+│       └── CommandLineHandler.cs
+├── Program.cs
 └── [Legacy files for backward compatibility]
 ```
 
 ## 🖼️ Screenshots
 
-Below are example screenshots of the Todo CLI Application. Make sure your images are placed in the `View/IPhotoCollection` folder relative to your repository root.
+Below are example screenshots of the Todo CLI Application.
 
 ```
-View/
-└── IPhotoCollection/
+View
+
     ├── add.png
     ├── complete.png
     ├── list.png
