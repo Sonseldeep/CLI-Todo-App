@@ -45,7 +45,7 @@ public class TodoRepositoryAdapter : ITodoRepository
 
         var oldTasks = await _oldRepository.LoadTasksAsync();
         var existingTaskIndex = oldTasks.FindIndex(t => t.Id == task.Id);
-        
+
         if (existingTaskIndex == -1)
         {
             throw new ArgumentException($"Task with ID {task.Id} not found");
@@ -62,7 +62,7 @@ public class TodoRepositoryAdapter : ITodoRepository
     {
         var oldTasks = await _oldRepository.LoadTasksAsync();
         var taskToRemove = oldTasks.FirstOrDefault(t => t.Id == id);
-        
+
         if (taskToRemove == null)
         {
             return false;
